@@ -1,0 +1,25 @@
+input three numbers: a, b, c
+if a <= b and a <= c
+	output a
+	and if b <= c
+		output b
+		output c
+	else
+		output c
+		output b
+else if b <= a and b <= c
+	output b
+	and if a <= c
+		output a
+		output c
+	else
+		output c
+		output a
+else if c <= a and c <= b
+	output c
+	and if a <= b
+		output a
+		output b
+	else
+		output b
+		output a

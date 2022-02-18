@@ -1,0 +1,9 @@
+input numbers
+set sum to 0
+loop through numbers
+	if current number < 0
+		output sum
+	else
+		add current number to sum
+end loop
+output sum
