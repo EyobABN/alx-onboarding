@@ -1,0 +1,5 @@
+	set variable sum to 0
+		loop through input_numbers
+			ass square of current_number to sum
+		end loop
+	output sum
